@@ -32,6 +32,12 @@ custom_dict={
     "E":["B","D"]
 }
 
-graph=Graph(custom_dict)
-graph.bfs_traverse("B")
+def main():
+
+    graph=Graph(custom_dict)
+    graph.bfs_traverse("A")
+
+if __name__ =='__main__':
+    main()
+
             
