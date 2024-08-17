@@ -1,3 +1,5 @@
+#graph depth first search traversing
+
 class Graph:
 
     def __init__(self,gdict=None):
